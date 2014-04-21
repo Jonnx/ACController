@@ -1,0 +1,97 @@
+html,body  {
+	font-family: "OpenSans", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	background: #79BFD4;
+	min-height: 100%;
+	background-image:url("./bg.jpg");
+	background-size: cover;
+}
+
+*, *:before, *:after {
+  	-moz-box-sizing: border-box; 
+  	-webkit-box-sizing: border-box; 
+  	box-sizing: border-box;
+}
+
+.button {
+	text-align: left;
+	width: 100%;
+	background: #EFEFEF;
+	border:0px solid #FFF;
+	border-left: 5px solid rgba(0,0,0,0.5);
+	font-family: "OpenSans", "Helvetica Neue", sans-serif;
+	padding:10px 14px;
+	font-size: 14px;
+	color:#333;
+}
+.button.button-success {
+	background: #174F24;
+	color:#FFF;
+}
+.button.button-success:hover {
+	background: #56A951;
+}
+.button.button-danger {
+	background: #880000;
+	color:#FFF;
+}
+.button.button-danger:hover {
+	background: #990000;
+}
+
+.container {
+	max-width: 400px;
+	margin: auto;
+	min-height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding:40px;
+}
+
+.login {
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin-top: -146px;
+}
+	.login h1, .login p {
+		color:#FFF;
+		font-weight: 300;
+		margin: 0px;
+		text-align: center;
+	}
+	.login input {
+		width: 100%;
+		font-family: "OpenSans", "Helvetica Neue", sans-serif;
+		padding:10px 14px;
+		border: 0px solid #FFF;
+		border-left: 5px solid #4A8098;
+		font-size: 14px;
+		border-radius: 0px;
+	}
+	.login form {
+		margin-top: 35px;
+	}
+
+.status {
+	position: absolute;
+	top:50%;
+	margin-top: -200px;
+	left: 0px;
+	right: 0px;
+}
+	.status h1 {
+		margin:10px;
+		color: #FFF;
+		text-align: center;
+	}
+	.status h1 .fa-gear {
+		font-size:80px;
+	}
+
+.logout {
+	position: absolute;
+	bottom: 0px; 
+	left: 0px;
+	right: 0px;
+}
